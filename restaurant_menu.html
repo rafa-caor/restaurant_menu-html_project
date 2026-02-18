@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fallito's Birria | Menu</title>
+        <style>
+            body {
+                background-color: antiquewhite;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img id="header-img" alt="Fallito's Birria Logo" width="80px" src="images/fallitosBirriaLogo.png">
+            <h1>Fallito's Birria</h1>
+            <nav>
+                <a href="#menu">Menu</a>
+                <a href="#order-form">Place Your Order</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2 id="menu">Menu</h2>
+                <br><hr><br>
+                <article>
+                    <img alt="Birria Tacos" width="300px" src="https://happyvegannie.com/wp-content/uploads/2023/09/birriatacos-1200x1200-2.jpg">
+                    <h3>Birria Tacos</h3>
+                    <p>Order of 3 delicious goat birria tacos.<br>Don't forget to ask for extra consome!</p>
+                </article>
+                <br><hr><br>
+                <article>
+                    <img alt="Quesabirrias" width="300px" src="https://s3.amazonaws.com/static.realcaliforniamilk.com/media/recipes_2/Quesabirria_Tacos.jpg">
+                    <h3>Quesabirrias</h3>
+                    <p>Order of 3 delicious goat quesabirrias with melting Manchego cheese.<br>Don't forget to ask for extra consome!</p>
+                </article>
+                <br><hr><br>
+                <article>
+                    <img alt="Birriamen" width="300px" src="https://tvazteca.brightspotcdn.com/dims4/default/0f09d05/2147483647/strip/true/crop/800x800+0+0/resize/1024x1024!/format/webp/quality/90/?url=http%3A%2F%2Ftv-azteca-brightspot.s3.amazonaws.com%2F1c%2F34%2F32c772c04a08a374c6f1f9215e71%2Fbirriamen-caldo.jpeg">
+                    <h3>Birriamen</h3>
+                    <p>Big bowl of flavorful birriamen, with freshly made noodles.<br>The best of two worlds!</p>
+                </article>
+            </section>
+            <section>
+                <h2 id="order-form">Place Your Order</h2>
+                <form>
+                    <label>Birria Tacos: </label><input type="number" min="0"></input><br><br>
+                    <label>Add-ons:</label><br>
+                    <label>Extra consome? </label>
+                    <input type="radio" name="tacos-ex-consome">Yes</input>
+                    <input type="radio" name="tacos-ex-consome">No</input><br>
+                    <label>Choose your salsa: </label>
+                    <input type="checkbox">Red</input>
+                    <input type="checkbox">Green</input><br><br>
+                    <label>Quesabirrias: </label><input type="number" min="0"></input><br><br>
+                    <label>Add-ons:</label><br>
+                    <label>Extra consome? </label>
+                    <input type="radio" name="quesabirria-ex-consome">Yes</input>
+                    <input type="radio" name="quesabirria-ex-consome">No</input><br>
+                    <label>Choose your salsa: </label>
+                    <input type="checkbox">Red</input>
+                    <input type="checkbox">Green</input><br><br>
+                    <label>Birriamen: </label><input type="number" min="0"></input><br><br>
+                    <label>Add-ons:</label><br>
+                    <label>Spice? </label>
+                    <input type="radio" name="birriamen-spice" required>Yes</input>
+                    <input type="radio" name="birriamen-spice" required>No</input><br>
+                    <label>Choose your spice: </label>
+                    <input type="checkbox">Chili Flakes</input>
+                    <input type="checkbox">Red salsa</input>
+                    <input type="checkbox">Green salsa</input><br><br>
+                    <textarea rows='7' cols='42' maxLength='250' placeholder='Write any comments here...'></textarea><br><br>
+                    <input type="submit" value="Go To Checkout"><br><hr>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Made with love by KAIZR</p>
+        </footer>
+    </body>
+</html>
